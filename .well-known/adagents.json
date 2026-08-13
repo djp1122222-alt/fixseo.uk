@@ -1,0 +1,36 @@
+{
+  "advertisers": ["https://fixseo.uk"],
+  "products": [
+    {
+      "id": "fixseo_ad_homepage",
+      "name": "FixSEO Homepage Ad Slot",
+      "description": "Bot-readable ad slot on Fixseo.uk landing page — £1/day.",
+      "price": "1.00",
+      "currency": "GBP",
+      "duration": "1 day",
+      "available": true,
+      "booking_endpoint": "https://fixseo.uk/api/book-ad"
+    },
+    {
+      "id": "fixseo_ad_sidebar",
+      "name": "FixSEO Sidebar Ad Slot",
+      "description": "Sidebar ad on Fixseo.uk — £1/day.",
+      "price": "1.00",
+      "currency": "GBP",
+      "duration": "1 day",
+      "available": true,
+      "booking_endpoint": "https://fixseo.uk/api/book-ad"
+    },
+    {
+      "id": "fixseo_ad_footer",
+      "name": "FixSEO Footer Ad Slot",
+      "description": "Footer ad on Fixseo.uk — £1/day.",
+      "price": "1.00",
+      "currency": "GBP",
+      "duration": "1 day",
+      "available": true,
+      "booking_endpoint": "https://fixseo.uk/api/book-ad"
+    }
+  ]
+}
+
