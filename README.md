@@ -77,7 +77,7 @@
 - Batch email processing
 - White-label ready
 
-*Contact for pricing.*
+[Try VicMailer ](https://vic-mailer-app-v2.vercel.app)
 
 ---
 
