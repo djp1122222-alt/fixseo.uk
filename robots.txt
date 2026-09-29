@@ -16,46 +16,47 @@ Allow: /
 User-agent: Applebot
 Allow: /
 
-# ── AI CRAWLERS (BLOCK) ──
+# ── AI CRAWLERS (ALLOW) ──
 User-agent: GPTBot
-Disallow: /
+Allow: /
 
 User-agent: ChatGPT-User
-Disallow: /
+Allow: /
 
 User-agent: OAI-SearchBot
-Disallow: /
+Allow: /
 
 User-agent: ClaudeBot
-Disallow: /
+Allow: /
 
 User-agent: Claude-Web
-Disallow: /
+Allow: /
 
 User-agent: Google-Extended
-Disallow: /
+Allow: /
 
 User-agent: PerplexityBot
-Disallow: /
+Allow: /
 
 User-agent: CCBot
-Disallow: /
+Allow: /
 
 User-agent: Amazonbot
-Disallow: /
+Allow: /
 
 User-agent: Meta-ExternalAgent
-Disallow: /
+Allow: /
 
 User-agent: PetalBot
-Disallow: /
+Allow: /
 
 User-agent: Baiduspider
-Disallow: /
+Allow: /
 
 # ── EVERYONE ELSE ──
 User-agent: *
 Allow: /
 
 Sitemap: https://fixseo.uk/sitemap.xml
+
 
