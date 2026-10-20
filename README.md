@@ -53,34 +53,6 @@
 
 ---
 
-## 🛠️ Products
-
-### PageForge — Landing Page Builder
-
-**Create professional landing pages in minutes.**
-
-- 6 colour themes
-- 8 demo blueprints
-- 4 pricing tiers
-- No coding required
-
-[Try PageForge →](https://page-forge-builder-djp2.vercel.app)
-
----
-
-### VicMailer — Email Outreach System
-
-**Automated lead generation and email outreach.**
-
-- Scrape leads from websites
-- Send automated email campaigns
-- Batch email processing
-- White-label ready
-
-[Try VicMailer ](https://vic-mailer-app-v2.vercel.app)
-
----
-
 ## 📊 How It Works
 
 | Step | Action |
