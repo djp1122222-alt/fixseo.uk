@@ -1,6 +1,27 @@
-https://fixseo.uk/
-https://fixseo.uk/about.html
-https://fixseo.uk/privacy.html
-https://fixseo.uk/terms.html
-https://fixseo.uk/contact.html
-https://fixseo.uk/llms.txt
+?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://sitemaps.org">
+  <url>
+    <loc>https://fixseo.uk/</loc>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://fixseo.uk/about.html</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://fixseo.uk/privacy.html</loc>
+    <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://fixseo.uk/terms.html</loc>
+    <priority>0.50</priority>
+  </url>
+  <url>
+    <loc>https://fixseo.uk/contact.html</loc>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://fixseo.uk/llms.txt</loc>
+    <priority>0.50</priority>
+  </url>
+</urlset>
