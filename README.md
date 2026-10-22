@@ -1,3 +1,6 @@
+<details>
+<summary>🎨 <strong>Click to view the 3D VIC Model Code</strong></summary>
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -135,6 +138,7 @@
 </body>
 </html>
 ```
+</details>
 
 # Fixseo — SEO Audit & Digital Growth Agency
 
@@ -223,3 +227,4 @@ Clone the repository:
 git clone https://github.com/djp1122222-alt/fixseo.git
 cd fixseo
 ```
+
