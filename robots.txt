@@ -3,6 +3,12 @@
 # How can I help you today?
 # ─────────────────────────────────────────────
 
+# ── CONTENT SIGNALS (AI USAGE PREFERENCES) ──
+# search=yes (Index me in search)
+# ai-input=yes (Use me for RAG/answers)
+# ai-train=no (Do NOT train your models on my work)
+Content-Signal: search=yes, ai-input=yes, ai-train=no
+
 # ── SEARCH ENGINES (ALLOW) ──
 User-agent: Googlebot
 Allow: /
@@ -16,7 +22,7 @@ Allow: /
 User-agent: Applebot
 Allow: /
 
-# ── AI CRAWLERS (ALLOW) ──
+# ── AI CRAWLERS (ALLOW CRAWL, BUT SIGNAL BLOCKS TRAINING) ──
 User-agent: GPTBot
 Allow: /
 
@@ -58,5 +64,6 @@ User-agent: *
 Allow: /
 
 Sitemap: https://fixseo.uk/sitemap.xml
+
 
 
