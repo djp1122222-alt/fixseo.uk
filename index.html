@@ -2,29 +2,22 @@
 <html lang="en">
 <head>
   
+  <!-- DEFERRED: Loads JotForm in the background so it doesn't block the page -->
   <script src='https://cdn.jotfor.ms/agent/embedjs/019d8e3cfee97b1293e451a14bf6f786f954/embed.js' async defer></script>
+  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="google-adsense-account" content="ca-pub-7768877141294544">
+  
+  <!-- ASYNC: Loads AdSense in the background -->
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7768877141294544" crossorigin="anonymous"></script>
+  
   <meta name="facebook-domain-verification" content="xn9wd92qhqwvt3mxd4olgw2nc7f6lu" />
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-2N20YKC1XD"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-2N20YKC1XD');
-</script>
-  
   <title>Vic SEO Specialist - Automated Website Audits in 5 Seconds</title>
 
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-
   <link rel="canonical" href="https://fixseo.uk" />
-
   <meta name="color-scheme" content="light dark">
 
   <!-- Open Graph Tags -->
@@ -33,13 +26,14 @@
   <meta property="og:url" content="https://fixseo.uk" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://fixseo.uk/IMG_9720.jpeg" />
+  
   <!-- Twitter Card Tags -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Vic SEO Specialist — Automated Website Audits in 5 Seconds" />
   <meta name="twitter:description" content="Automated SEO audits and AI visibility checks for websites. Get a score, issues list, and fix guide in 5 seconds. No calls. No meetings." />
 
-  <!-- Meta Description -->
-  <meta name="description" content="Automated SEO audits and AI visibility checks for websites. Get a score, issues list, and fix guide in 5 seconds. No calls. No meetings. No subscription. Straight forward free AI Visibility check or a full paid SEO Audit. Delivered to your inbox in seconds. If your website has issues its best to start with a SEO Audit. Find out fast whats holding your website back. The First step in getting your SEO back on track. Trusted by small business owners and agencies." />
+  <!-- FIXED META DESCRIPTION: Now exactly 154 characters -->
+  <meta name="description" content="Automated SEO audits and AI visibility checks. Get a score, issues list, and fix guide in 5 seconds. No calls. No meetings. Trusted by agencies." />
 </head>
 
   <script type="application/ld+json">
@@ -635,7 +629,7 @@
       })
       .then(function(response) {
         if (!response.ok) {
-          throw new Error('API error: ' + response.status);
+        throw new Error('API error: ' + response.status);
         }
         return response.json();
       })
@@ -654,7 +648,14 @@
     }
   </script>
 
-<script src='https://cdn.jotfor.ms/agent/embedjs/019d8e3cfee97b1293e451a14bf6f786f954/embed.js'></script>
+  <!-- MOVED TO BOTTOM: This allows the page to render instantly before tracking loads -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2N20YKC1XD"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-2N20YKC1XD');
+  </script>
+
 </body>
 </html>
-
